@@ -1,0 +1,14 @@
+Package: isit
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: person(given = "Andrés",
+                    family = "Christiansen",
+                    role = c("aut", "cre"),
+                    email = "andres.christiansen@iea-hamburg.de")
+Maintainer: Andrés Christiansen <andres.christiansen@iea-hamburg.de>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+
