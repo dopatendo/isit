@@ -2,7 +2,8 @@
 #'
 #'
 #' @inheritParams is.TF
-#' @inheritSection is.TF value
+#'
+#' @return \code{TRUE} or \code{FALSE}.
 #'
 #'
 #' @examples

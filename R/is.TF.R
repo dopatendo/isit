@@ -1,18 +1,24 @@
-# Hello, world!
-#
-# This is an example function named 'hello' 
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Install Package:           'Cmd + Shift + B'
-#   Check Package:             'Cmd + Shift + E'
-#   Test Package:              'Cmd + Shift + T'
+#' Is it TRUE or FALSE?
+#'
+#'
+#' @param x an object.
+#'
+#' @return \code{TRUE} or \code{FALSE}.
+#'
+#'
+#' @examples
+#' is.TF(as.logical(NA))
+#' is.TF(as.logical(NULL))
+#' is.TF(TRUE)
+#' is.TF(c(TRUE,TRUE))
+#' is.TF(1)
+#'
+#' @export
 
-hello <- function() {
-  print("Hello, world!")
+
+is.TF <- function(x){
+  is.vector(x)&&is.logical(x)&&length(x)==1&&!is.na(x)
 }
+
+
+
